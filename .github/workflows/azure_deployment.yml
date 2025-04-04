@@ -148,4 +148,5 @@ jobs:
             --image "${{ env.ACR_REGISTRY }}/${{ env.ACR_REPOSITORY_NAME }}:${{ github.ref_name }}" \
             --registry-server "${{ env.ACR_REGISTRY }}" \
             --registry-username "${{ env.ACR_USERNAME }}" \
-            --registry-password "${{ env.ACR_PASSWORD }}"
+            --registry-password "${{ env.ACR_PASSWORD }}" \
+            --env-vars DATABASE_URL=${{ secrets.DATABASE_URL }}
