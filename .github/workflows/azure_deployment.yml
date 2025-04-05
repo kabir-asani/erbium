@@ -8,8 +8,6 @@ on:
 env:
   AZURE_REGION: centralindia
   RESOURCE_GROUP: Erbium
-  CONTAINER_APPS_ENVIRONMENT: ErbiumContainerAppsEnvironment
-  LOG_ANALYTICS_WORKSPACE: ErbiumLogAnalyticsWorkspace
   CONTAINER_APP_NAME: erbium
   TARGET_PORT: 3000
 
