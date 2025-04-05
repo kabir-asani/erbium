@@ -1,6 +1,6 @@
 {
   "name": "erbium",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "dev": "tsx watch -r dotenv/config src/index.ts",
     "build": "tsc -p tsconfig.build.json",
